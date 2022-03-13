@@ -1,6 +1,6 @@
 import axios from 'axios';
 import queryString from 'query-string';
-// import { getRefreshToken, getToken } from './Cookie';
+import { getRefreshToken, getToken } from './Cookie';
 
 const refreshToken = getRefreshToken('RefreshToken');
 

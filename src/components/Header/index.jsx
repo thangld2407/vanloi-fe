@@ -1,8 +1,8 @@
+import { BellOutlined, UserOutlined } from '@ant-design/icons';
 import { Badge, Button, Layout, Popover } from 'antd';
 import { t } from 'i18next';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link  } from 'react-router-dom';
 const content = <Button>Logout</Button>;
 
 const Header = () => {
@@ -11,8 +11,7 @@ const Header = () => {
     <Header className="header">
       <div className="header__logo">
         <Link to="/">
-          {/* <img src={logo} alt="logo" /> */}
-          <span>{t('header.hrtool')}</span>
+          <span>{t('header.title')}</span>
         </Link>
       </div>
       <div className="header__add">
@@ -22,14 +21,14 @@ const Header = () => {
 
           <a href="#!">
             <Badge count={10} overflowCount={9} size="default" offset={[5]}>
-              {/* <img src={BellIcon} alt="BellIcon" /> */}
+              <BellOutlined style={{ fontSize: '24px', color: '#fff' }} />
             </Badge>
           </a>
         </div>
         <div className="header__add--user user">
           <Popover content={content}>
             <a className="user__info" href="#!">
-              {/* <img src={UserIcon} alt="UserIcon" /> */}
+              <UserOutlined />
               <span>Thang Le Dinh</span>
             </a>
           </Popover>

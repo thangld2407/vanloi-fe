@@ -3,5 +3,8 @@
         "header": "Timesheet Linking System",
         "forgot-password": "Forgot Password",
         "title": "Login"
+    },
+    "header": {
+        "title": "Timesheet Linking System"
     }
 }
