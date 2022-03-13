@@ -5,14 +5,9 @@ import './assets/scss/app.scss';
 function App() {
   return (
     <Routes>
-      <Route path="/" >
-
-      </Route>
-      <Route path="setting" >
-
-      </Route>
-      <Route path="/login"  />
-     
+      <Route path="/"></Route>
+      <Route path="setting"></Route>
+      <Route path="/login" />
     </Routes>
   );
 }
