@@ -1,0 +1,114 @@
+{
+  "header": {
+    "hrtool": "hr tools"
+  },
+  "sidebar": {
+    "statistic": "Statistic",
+    "request": "Request",
+    "plan": "Plan",
+    "cv-managerment": "Managerment",
+    "setting": "Setting",
+    "common": "Common",
+    "position": "Position",
+    "level": "Level",
+    "language": "Language",
+    "cv-resource": "Source",
+    "user": "User",
+    "role": "Role"
+  },
+  "language": {
+    "language": "language",
+    "keyword": "Keyword",
+    "languageSearchPlaceholder": "Search a language...",
+    "description": "description",
+    "action": "action",
+    "createLang": "create language",
+    "status": "Status",
+    "edit": "edit",
+    "remove": "remove",
+    "cancel": "Cancel",
+    "titleBtnCreateLang": "Create",
+    "titleBtnEditLang": "Edit",
+    "titleCreateLang": "Create Language",
+    "titleEditLang": "Edit Language",
+    "cancelText": "Cancel",
+    "selectLangForm": "Select a language",
+    "rulesForSelectLang": "Language is required",
+    "active": "Active",
+    "locking": "Locking",
+    "confirmTextRemoveLang": "Are you sure remove this language?",
+    "fetchCreateLangSuccess": "Create Language successfully!",
+    "fetchCreateLangFail": "Fail to create Language!",
+    "fetchEditLanguageFail": "Fail to edit language",
+    "fetchEditLanguageSucesss": "Edit Language successfully!",
+    "fetchLanguageByIdFail": "Fail to get this language",
+    "networkError": "Network error!",
+    "deleteLanguageSuccess": "Delete language successfully!",
+    "deleteLanguageFail": "Fail to delete language!",
+    "validateMinCharTitle": "'title' must be at least {{minLength}} characters",
+    "validateWhiteSpaceTitle": "'title' cannot be empty",
+    "exportTooltip": "Export",
+    "showColumnTooltip": "Show/Hide column",
+    "fullScreenTooltip": "Fullscreen",
+    "titleChangeSorter": "Click to change sorter"
+  },
+  "notfound": {
+    "subTitle": "Sorry, the page you visited does not exist.",
+    "buttonText": "Back Home",
+    "remove": "remove"
+  },
+  "user": {
+    "titleModalAdd": "Create user",
+    "modalLabelEdit": "Edit user",
+    "statusLabelModal": "Status",
+    "fullname": "Full name",
+    "username": "User name",
+    "email": "Email",
+    "role_id": "Role",
+    "pageHeaderTitle": "User",
+    "createButton": "Create User",
+    "deleteSuccess": "Delete successfully!",
+    "deleteFail": "Delete Failed!",
+    "createWarn": "Duplicate User or Email!",
+    "createSuccess": "Create User successfully!",
+    "createFail": "Create Failed!",
+    "lockSuccess": "Lock User successfully!",
+    "lockFail": "Lock User successfully!",
+    "updateSuccess": "Update User successfully!",
+    "updateFail": "Update failed",
+    "updateWarn": "Duplicate User or Email!",
+    "installErr": "Network Error!",
+    "confirmMessage": "Are you sure?",
+    "yes": "yes",
+    "no": "no",
+    "lock": "lock",
+    "delete": "delete",
+    "edit": "edit"
+  },
+  "login": {
+    "title": "HiveTech Recruits Management",
+    "message-error": {
+      "password": "Please input your password!",
+      "username": "Please input your username!"
+    },
+    "message": {
+      "sucess": "Login success"
+    }
+  },
+  "level": {
+    "title": "LEVEL",
+    "create-level": "Create Level",
+    "popup": {
+      "title": "Create New Level",
+      "label": {
+        "title-level": "Level",
+        "description": "Description",
+        "status": "Status"
+      }
+    }
+  },
+  "forgotpassword": {
+    "title": "FORGOT PASSWORD",
+    "it-helpdesk": "Contact IT Helpdesk for support."
+  }
+}
