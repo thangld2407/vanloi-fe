@@ -17,9 +17,7 @@ function Sidebar(props) {
         mode="inline"
         defaultOpenKeys={['setting']}
         selectedKeys={[
-          location.pathname.length > 1
-            ? location.pathname
-            : '/statistic',
+          location.pathname.length > 1 ? location.pathname : '/statistic',
         ]}
         className="sidebar__menu"
       >

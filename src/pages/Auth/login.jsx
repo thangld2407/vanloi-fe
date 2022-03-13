@@ -41,7 +41,7 @@ const Login = () => {
             style={{
               height: '100%',
               alignItems: 'center',
-              justifyContent: "center"
+              justifyContent: 'center',
             }}
           >
             <Col sm={12} md={6} lg={6} xl={6}>
