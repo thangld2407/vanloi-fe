@@ -29,7 +29,7 @@ const Header = () => {
           <Popover content={content}>
             <a className="user__info" href="#!">
               <UserOutlined />
-              <span>Thang Le Dinh</span>
+              <span>Ngô Văn Lợi</span>
             </a>
           </Popover>
         </div>
