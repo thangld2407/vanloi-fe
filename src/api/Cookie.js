@@ -17,3 +17,18 @@ export function clearCookie() {
     Cookies.remove(tokenName),
   );
 }
+
+export function setIsLogin(token, TokenKey = 'Login') {
+  return Cookies.set(TokenKey, token);
+}
+export function getIsLogin(TokenKey = 'Login') {
+  return Cookies.get(TokenKey);
+}
+
+export function setCookieRefreshToken(token, TokenKey = 'Refresh-Token') {
+  return Cookies.set(TokenKey, token);
+}
+
+export function getRefreshToken(TokenKey = 'Refresh-Token') {
+  return Cookies.get(TokenKey);
+}

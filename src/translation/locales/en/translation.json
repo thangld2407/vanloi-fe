@@ -1,10 +1,15 @@
 {
-    "login": {
-        "header": "Timesheet Linking System",
-        "forgot-password": "Forgot Password",
-        "title": "Login"
-    },
-    "header": {
-        "title": "Timesheet Linking System"
-    }
+  "login": {
+    "header": "Timesheet Linking System",
+    "forgot-password": "Forgot Password",
+    "title": "Login"
+  },
+  "header": {
+    "title": "Timesheet Linking System"
+  },
+  "sidebar": {
+    "timesheet": "Timesheet",
+    "dashboard": "Dashboard",
+    "setting": "Settings"
+  }
 }

@@ -1,28 +1,22 @@
-import {
-  CalendarOutlined,
-  NotificationOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
+import { CalendarOutlined, UserOutlined } from '@ant-design/icons';
 
 export const LIST_ROUTES = [
   {
-    path: '/statistic',
-    title: 'statistic',
+    path: '/dashboard',
+    title: 'dashboard',
     icon: <UserOutlined />,
     child: [],
   },
   {
-    path: '/request',
-    title: 'request',
+    path: '/timesheet',
+    title: 'timesheet',
     icon: <CalendarOutlined />,
     child: [],
   },
-
   {
-    path: '/setting',
-    title: 'setting',
-    icon: <NotificationOutlined />,
-    child: [
-    ],
+    path: '/account',
+    title: 'account',
+    icon: <CalendarOutlined />,
+    child: [],
   },
 ];

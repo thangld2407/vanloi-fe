@@ -2,7 +2,7 @@ import { BellOutlined, UserOutlined } from '@ant-design/icons';
 import { Badge, Button, Layout, Popover } from 'antd';
 import { t } from 'i18next';
 import React from 'react';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const content = <Button>Logout</Button>;
 
 const Header = () => {
