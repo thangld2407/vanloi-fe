@@ -4,6 +4,7 @@ import { Link, Navigate } from 'react-router-dom';
 //   getRefreshToken,
 // } from '../../api/Cookie';
 import { useTranslation } from 'react-i18next';
+import { GooglePlusOutlined } from '@ant-design/icons';
 
 const Login = () => {
   //   const token = getRefreshToken('Refresh-Token');
@@ -90,7 +91,21 @@ const Login = () => {
                       </Link>
                     </Form.Item>
                     <Form.Item>
-                      <Button htmlType="submit" type="danger">
+                      <Button
+                        htmlType="submit"
+                        type="danger"
+                        style={{ fontSize: '15px' }}
+                      >
+                        <GooglePlusOutlined />
+                        {t('Login by Google')}
+                      </Button>
+                    </Form.Item>
+                    <Form.Item>
+                      <Button
+                        htmlType="submit"
+                        type="primary"
+                        style={{ fontSize: '15px' }}
+                      >
                         {t('login.title')}
                       </Button>
                     </Form.Item>
