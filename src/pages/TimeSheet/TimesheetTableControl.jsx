@@ -107,7 +107,7 @@ const TimeSheetTableControl = props => {
             </Form.Item>
             <Form.Item
               name="title"
-              label={t('Email')}
+              label={t('Roles')}
               rules={[
                 {
                   required: true,
@@ -127,6 +127,12 @@ const TimeSheetTableControl = props => {
               name="status"
               className="collection-create-form_last-form-item"
               label={t('Status')}
+              rules={[
+                {
+                  required: true,
+                  message: t('level.message.name-level'),
+                },
+              ]}
             >
               <Radio.Group>
                 <Radio value="0">{t('Active')}</Radio>

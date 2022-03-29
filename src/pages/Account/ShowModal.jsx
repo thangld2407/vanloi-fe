@@ -1,3 +1,0 @@
-const ShowModal = props => {
-  return <></>;
-};
